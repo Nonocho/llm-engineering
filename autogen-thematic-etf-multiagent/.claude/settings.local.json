@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -m venv:*)",
+      "Bash(py:*)",
+      "Bash(./venv/Scripts/pip:*)",
+      "Bash(./venv/Scripts/python:*)",
+      "Bash(timeout 5 ./venv/Scripts/python:*)",
+      "Bash(timeout 8 ./venv/Scripts/python:*)",
+      "Bash(timeout:*)",
+      "Bash(\"venv\\\\Scripts\\\\python.exe\" app.py)",
+      "Bash(taskkill:*)",
+      "Bash(venvScriptspip.exe list)",
+      "Bash(findstr:*)",
+      "Bash(python -m pip install:*)",
+      "Bash(venv/Scripts/python.exe -m pip install:*)",
+      "Bash(venv/Scripts/python.exe:*)",
+      "Bash(pip show:*)",
+      "Bash(python -m pip:*)"
+    ]
+  }
+}
