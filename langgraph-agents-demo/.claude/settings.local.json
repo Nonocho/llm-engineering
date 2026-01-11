@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \" import json with open\\(''Build Agentic AI Workflows Using LangGraph.ipynb'', ''r''\\) as f: nb = json.load\\(f\\) # Extract cell contents cells = nb[''cells''] for i, cell in enumerate\\(cells\\): if cell[''cell_type''] == ''code'': source = ''''.join\\(cell[''source'']\\) if any\\(keyword in source for keyword in [''search_flights_tool'', ''get_current_date_tool'', ''simple_math_tool'', ''search_hotels_tool'', ''build_graph_one_tool'']\\): print\\(f''\\\\n=== CELL {i} ===''\\) print\\(source[:1500]\\) \")",
+      "Bash(pip install:*)",
+      "Bash(python -m pip:*)"
+    ]
+  }
+}
+
