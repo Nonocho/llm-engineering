@@ -1,0 +1,42 @@
+# Environment variables and API keys
+.env
+*.env
+.env.*
+
+# Claude Code configuration (may contain sensitive data)
+.claude/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+venv/
+ENV/
+env/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+output/
+
+# Jupyter
+.ipynb_checkpoints
+
+# CrewAI outputs
+crew_output.log
